@@ -46,8 +46,8 @@ $(function() {
     });
 
     $indicators.on('click', 'li', function() {
-        var indicatorIndex = $(this).index();
-        renderSlide(indicatorIndex);
+        currentSlide = $(this).index();
+        renderSlide(currentSlide);
         restartInterval();
     });
 
