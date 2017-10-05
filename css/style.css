@@ -1,0 +1,21 @@
+#carousel {
+	height: 300px;
+  	left: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+}
+
+#carousel ul {
+	list-style: none;
+	padding: 0;
+	width: 2000px;
+}
+
+#carousel ul li {
+	float: left;
+	width: 400px;
+	height: 300px;
+}
